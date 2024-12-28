@@ -1,6 +1,3 @@
-# thoughtfulai.packages
-Thoughtful AI Packages
-
 # PackageSorter
 
 ## Overview
@@ -17,12 +14,18 @@ Thoughtful AI Packages
 
 ## Project Structure
 
+### Main Classes
 The project contains:
 
-- **PackageSorter.java**: The main class that implements the sorting logic.
-- **model/PackageResult.java**: A helper class to store the results of sorting.
-- **model/Stack.java**: Enum class to represent the different stacks.
-- **PackageSorterTest**: Unit tests implemented using JUnit.
+- `PackageSorter.java`: The class that implements the sorting logic.
+- `Main.java`: The main class to run the program.
+- `model/PackageResult.java`: A helper class to store the results of sorting.
+- `model/Stack.java`: Enum class to represent the different stacks.
+
+### Test Classes
+The project also contains the following test classes:
+
+- `PackageSorterTest`: Unit tests implemented using JUnit.
 
 ## Constants
 
